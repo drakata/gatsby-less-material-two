@@ -2,7 +2,9 @@ backend:
   name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
   branch: master # Branch to update
   repo: drakata/gatsby-less-material-two # Repo for pushing new commits. Make sure to replace with your repo!
-
+  site_domain: cms.netlify.com
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 media_folder: static/assets
 public_folder: assets
 
